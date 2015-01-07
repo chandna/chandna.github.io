@@ -71,7 +71,7 @@
           
           <div class="post-area clear-after">
             <article role="main" class="column nine">
-              <h5>July 2014</h5>
+              <h5>July 2014 in Web Design, User Interface</h5>
               <h1>Revamped SlideShare Analytics</h1>
               <p>SlideShare's analytics platform was among the top premium offerings available as part of the SlideShare PRO suite launched somewhere in 2012. As SlideShare kept improving its platform, we wanted new data points to be made available to the users and at the same time update the design to make it look fresh, improve the information architecture and navigation. We'd also planned to open analytics to all 60 million SlideShare users sometime in the future and thus focused on builing a simple, scalable design and technology.</p>
 
@@ -181,7 +181,18 @@
     <script src="https://code.jquery.com/jquery.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>    
     <script src="../js/plugins.js"></script>
-    <script src="../js/beetle.js"></script>
+    <script src="../js/custom.js"></script>
+
+    <!-- Google analytics tracking -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-25849061-1', 'auto');
+      ga('send', 'pageview');
+    </script>
 
   </body>
 

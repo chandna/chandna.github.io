@@ -4699,3 +4699,6 @@ input.cmn-toggle-round-flat:checked + label:after {
 .label-right {
   margin-left: 50%;
 }
+.caption-display {
+  display: table-cell;
+}
